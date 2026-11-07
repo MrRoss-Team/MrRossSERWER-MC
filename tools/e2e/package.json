@@ -1,0 +1,9 @@
+{
+	"name": "easytp-e2e",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Test na żywo moda EasyTP: serwer Fabric 1.21.11 + boty mineflayer",
+	"dependencies": {
+		"mineflayer": "^4.39.0"
+	}
+}

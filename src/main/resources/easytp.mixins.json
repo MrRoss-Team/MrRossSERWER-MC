@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "pl.easytp.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"CommandsMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "easytp",
+	"version": "${version}",
+	"name": "EasyTP",
+	"description": "Server-side commands: /sethome, /home, /tpa, /tpahere, /tpaccept and /spawn, moderation (temporary bans, mutes, warnings), automatic world backups and game modes: survival PvP with hearts, money, shops, leaderboards and clans, plus duels, OneBlock islands and BoxPvP. Players do not need to install the mod.",
+	"authors": [
+		"EasyTP"
+	],
+	"license": "MIT",
+	"icon": "assets/easytp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pl.easytp.EasyTP"
+		]
+	},
+	"mixins": [
+		"easytp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
